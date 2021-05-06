@@ -1,0 +1,39 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT ",
+    "version": "eosio::abi/1.1",
+    "types": [],
+    "structs": [
+        {
+            "name": "pow",
+            "base": "",
+            "fields": [
+                {
+                    "name": "cnt",
+                    "type": "uint64"
+                },
+                {
+                    "name": "min_sell",
+                    "type": "asset"
+                },
+                {
+                    "name": "min_get",
+                    "type": "asset"
+                },
+                {
+                    "name": "ischeckbp",
+                    "type": "bool"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "pow",
+            "type": "pow",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [],
+    "ricardian_clauses": [],
+    "variants": []
+}
